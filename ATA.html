@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title> C'est bientot le weekend ?  </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" type="text/css" href="assets/css/Style.css">
+
+
+   <?php
+
+	echo date("l", mktime(2,56,0,7,21,1969));
+
+	?>         
+
+  
+</head>
+<body>
+
+	 <style type="text/css">
+            body {
+                text-align:center;
+                padding-top:40px
+            }
+            img {
+                border:0px;
+            }
+            p.msg {
+               
+                font-size:40px;
+                padding-bottom:40px
+            }
+            p#footer {
+                text-align:right;
+            }
+
+
+
+            body, html{
+	margin:0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	background: #efefe5
+}
+        </style>
+
+
+
+
+<div> 
+<h1>A ton avis? ...<h1/>
+</div> 
+
+
+
+
+<div> 
+<h2>Je suis sympa je te laisse un p'tit calendrier au cas ou tu serais perdu au point de chercher " http://estcequecestbientotleweekend.fr/ " sur google...<h2/>
+</div> 
+
+
+
+
+
+<div>
+
+<iframe name="InlineFrame1" id="InlineFrame1" style="width:180px;height:220px;" src="http://www.mathieuweb.fr/calendrier/calendrier-des-semaines.php?nb_mois=1&nb_mois_ligne=4&mois=&an=&langue=fr&texte_color=B9CBDD&week_color=DAE9F8&week_end_color=C7DAED&police_color=453413&sel=true" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+</div>
+
+
+<div>
+
+<input type="button" name="lien1" value="Oui?" onclick="self.location.href='OUI.html'" style="background-color:#30050" style="color:white; font-weight:bold"onclick> 
+
+
+<input type="button" name="lien1" value="Non?" onclick="self.location.href='NON.html'" style="background-color:#30000" style="color:white; font-weight:bold"onclick> 
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+</html>
